@@ -1,0 +1,3 @@
+#Tue Nov 08 09:26:39 CST 2011
+com.aptana.explorer.view.filterActivation=\:org.python.pydev.navigator.filters.hidePyoFiles\:org.python.pydev.navigator.filters.endsWithClass\:org.eclipse.ui.navigator.resources.filters.startsWithDot\:org.python.pydev.navigator.filters.hidePyTildaFiles\:org.python.pydev.navigator.filters.hidePycFiles\:org.python.pydev.navigator.filters.customFilters\:org.python.pydev.navigator.filters.Imports\:
+eclipse.preferences.version=1

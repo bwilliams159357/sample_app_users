@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= @title %></title>
+  <%= stylesheet_link_tag    'blueprint/screen', :media => 'screen' %>
+  <%= stylesheet_link_tag    'blueprint/print', :media => 'print' %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="container">'
+  	<header>
+  	  <nav>
+  	    <%= link_to "Home", '#' %>
+  	    <%= link_to "Help", '#' %>
+  	    <%= link_to "Sign In", '#' %>
+  	  </nav>
+  	</header>
+  </div>
+
+<%= yield %>
+<footer>
+  <nav>
+  	<%= link_to "About", '#' %>
+  	<%= link_to "Contact", '#' %>
+  	<%= link_to "News", 'http://news.railstutorial.org' %>
+  	<%= link_to "Rails Turoial", 'http://www.railstutorial.org' %>
+  </nav>
+</footer>
+
+</body>
+</html>

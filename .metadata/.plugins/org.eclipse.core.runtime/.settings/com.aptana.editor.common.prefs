@@ -1,0 +1,10 @@
+#Thu Nov 03 09:53:26 CDT 2011
+AbstractTextEditor.Color.Background.SystemDefault=false
+AbstractTextEditor.Color.Foreground.SystemDefault=false
+AbstractTextEditor.Color.Foreground=255,255,255
+currentLineColor=51,51,0
+AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
+com.aptana.editor.common.characterPairColor=128,128,128
+AbstractTextEditor.Color.Background=0,0,0
+eclipse.preferences.version=1
+AbstractTextEditor.Color.SelectionForeground=101,78,111
